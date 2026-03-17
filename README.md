@@ -1,11 +1,14 @@
 # Ziaul Alam
 
-Currently a CS major at LIU Brooklyn, completing my degree in May 2026. I generally build solutions to problems I run into directly. A legal document pipeline came out of the inconsistencies I saw in extracting text from court PDFs. A webhook relay came from thinking through what it actually means for a packet to be confirmed received versus just sent. A transaction anomaly detector came from working with financial records that were unreliable enough that they could not be handed to a reviewer as-is. The projects shown here are the ones I built to work through those problems.
+Backend and data engineering. CS at LIU Brooklyn, finishing May 2026.
 
-Looking for back-end or machine learning engineering positions starting Summer 2026. Proficient in Python. Interested in systems that are correct, not simply fast.
+I build systems where the output needs to be trusted, not just functional. That means audit trails, correctness guarantees, and instrumentation that shows when something is wrong.
 
-**Live project:** [Legal Document Classifier](https://huggingface.co/spaces/ziaulalam1/ldc)
+**Projects:**
+- **[recon-toolkit](https://github.com/ziaulalam1/recon-toolkit)** — CSV reconciliation CLI for finance and operations. Run one command, get a categorized exception report, a manager-readable summary, and a SHA-256 audit manifest. 60+ tests. CI on Python 3.10–3.12.
+- **[Legal Document Classifier](https://huggingface.co/spaces/ziaulalam1/ldc)** — sentence embedding classifier for court documents (.eml + PDF intake). Live on Hugging Face. Compliance purge: no extracted text survives inference.
+- **[stat-arb-backtester](https://github.com/ziaulalam1/stat-arb-backtester)** — walk-forward statistical arbitrage backtester with cointegration stability tracking. Reports when the strategy's assumptions stopped holding, not just what it returned.
 
----
+Targeting backend and data engineering internships starting May 2026. Interested in teams where reliability and measurement are built in, not added later.
 
-**Stack:** Python · FastAPI · scikit-learn · PostgreSQL · pandas · Docker
+**Stack:** Python · TypeScript · FastAPI · PostgreSQL · Docker · pytest · pandas · NumPy
