@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+.idea/
+.vscode/
+.claude/
+CLAUDE.md
+INTERVIEW.md
+INTERVIEW_CHEATSHEET.md
+.env
